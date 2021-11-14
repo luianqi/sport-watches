@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
+
+body {
+  width: 100%;
+}
+.header {
+  background: url(https://images01.nicepage.com/79/93/79933c957fc3f6515847a8741418f7dc.jpeg);
+  background-size: 100%;
+  width: 100%;
+  height: 700px;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1.main_title {
+  color: white;
+  font-size: 70px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 600;
+  padding: 20px;
+}
+
+p.main_subtitle {
+  color: white;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+}
+
+.main_text {
+  text-align: center;
+  padding-top: 300px;
+}
+ul.menu_list {
+  display: flex;
+  gap: 100px;
+  color: white;
+  list-style-type: none;
+  padding-top: 50px;
+}
+.menu_item:hover {
+  color: #222b32;
+}
+li.menu_item {
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.about__img {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+}
+.button {
+  max-width: 140px;
+  height: 50px;
+  background: #222b32;
+  border: none;
+}
+
+/* second section */
+
+.second_section__block {
+  text-align: center;
+}
+
+.second__main_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 30px;
+}
+
+p.desc_block__sub,
+.third__subtitle {
+  font-size: 18px;
+}
+
+p.desc_block__usub {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.second_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  width: 22%;
+  text-align: initial;
+}
+
+.second__img {
+  width: 500px;
+  height: 500px;
+}
+.second_section {
+  background: #35506d;
+  color: white;
+  padding: 50px 0px 50px 0px;
+}
+
+/* third section */
+
+.third_section {
+  background: url(https://images01.nicepage.com/51/b3/51b3bdc24b55471588deb60b32cb4f8f.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.third_secton__desctiption {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  gap: 20px;
+  width: 45%;
+  color: white;
+  /* line-height: 10px; */
+}
+
+/* fourth section*/
+
+.fourth_description_block {
+  display: flex;
+  gap: 30px;
+}
+
+img.f_img {
+  width: 55%;
+}
+
+.f__desc_blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  line-height: 20px;
+  text-align: initial;
+}
+
+h4.f__usub {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+section.fourth_section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+h3.f__title {
+  padding: 40px;
+}
+footer.footer {
+  background: #535861;
+}
+
+ul.list_contacts {
+  padding: 40px;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.third__subtitle {
+  line-height: 25px;
+}
+
+@media (max-width: 900px) {
+  .main_text {
+    padding-top: 50px;
+  }
+
+  h1.main_title {
+    font-size: 20px;
+  }
+
+  p.main_subtitle {
+    font-size: 10px;
+  }
+
+  .about__description {
+    display: initial;
+    text-align: center;
+  }
+
+  .about {
+    display: initial;
+  }
+
+  p.about__title {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  p.about__subtitle {
+    margin: 0;
+    font-size: 15px;
+  }
+  button.about__buttton {
+    display: none;
+  }
+
+  ul.menu_list {
+    gap: 55px;
+    padding-top: 10px;
+  }
+
+  li.menu_item {
+    font-size: 11px;
+  }
+
+  header.header {
+    height: 200px;
+  }
+  .second__main_block {
+    flex-direction: column;
+  }
+
+  .second_description {
+    width: 100%;
+  }
+
+  img.second__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .second__title.title {
+    margin-bottom: 42px;
+  }
+
+  .third_secton__desctiption {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  section.third_section {
+    background-size: inherit;
+    background-position: 50% 50%;
+    height: 400px;
+  }
+
+  img.f_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .fourth_description_block {
+    flex-direction: column;
+  }
+
+  h3.f__title.title {
+    padding: 25px 0px 25px 0px;
+  }
+  ul.list_contacts {
+    display: initial;
+  }
+
+  li.contact {
+    margin: 6px;
+  }
+}
